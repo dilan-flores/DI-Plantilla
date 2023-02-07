@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+header {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(87, 152, 161);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header .menu{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+main{
+    display: flex;
+    background-color: black;
+}
+main .lateral{
+    display: block;
+    background-color: salmon;
+}
+
+main .lateral .e{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+main .area{
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
